@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.readRecord(${1:tableName}).then(function(${2:result}){
+	${3:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcread</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.readRecords(...)  (Full Promise)</description>
+</snippet>

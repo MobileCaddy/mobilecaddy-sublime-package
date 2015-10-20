@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+devUtils.readRecord(${1:tableName});
+]]></content>
+	<tabTrigger>mcread</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.readRecords(...);</description>
+</snippet>

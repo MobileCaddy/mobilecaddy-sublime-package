@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.smartSql("${1:sql}").then(function(${2:result}){
+	${3:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mccmartsql</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.smartSql(...)  (Full Promise)</description>
+</snippet>

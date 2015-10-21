@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+vsnUtils.upgradeIfAvailable().then(function(${1:result}){
+	${2:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcupgrade</tabTrigger>
+	<scope>source.js</scope>
+	<description>vsnUtils.upgradeIfAvailable()  (Full Promise)</description>
+</snippet>

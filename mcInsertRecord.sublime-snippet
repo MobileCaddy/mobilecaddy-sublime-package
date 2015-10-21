@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.insertRecord(${1:tableName}), ${2:obj}).then(function(${3:result}){
+	${4:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcinsert</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.insertRecord()  (Full Promise)</description>
+</snippet>

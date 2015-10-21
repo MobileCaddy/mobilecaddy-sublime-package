@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.dirtyTables().then(function(${1:result}){
+	${2:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcdirty</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.dirtyTables()  (Full Promise)</description>
+</snippet>

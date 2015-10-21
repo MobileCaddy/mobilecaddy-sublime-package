@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.getCurrentUser().then(function(userId){
+	${1:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcuser</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.getCurrentUser()  (Full Promise)</description>
+</snippet>

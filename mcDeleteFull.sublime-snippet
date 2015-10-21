@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.deleteRecord(${1:tableName}, {${2:idField}, ${3:idVal}}, ${2:idField}).then(function(${4:result}){
+	${5:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcdelete</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.deleteRecord(...)  (Full Promise)</description>
+</snippet>

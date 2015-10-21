@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.updateRecord(${1:tableName}, ${2:rec}, "${3:idField}").then(function(${4:result}){
+	${5:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcupdate</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.updateRecord(...)  (Full Promise)</description>
+</snippet>

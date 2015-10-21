@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+devUtils.insertRecord(${1:tableName}, ${2:syncWithoutLocalUpdates}, ${3:maxTableAge}, ${4:recsPerCall}).then(function(${5:result}){
+	${6:// body}
+}).catch(function(e){
+	logger.error(e);
+});
+]]></content>
+	<tabTrigger>mcsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>devUtils.syncMobileTable(...)  (Full Promise)</description>
+</snippet>
